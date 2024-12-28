@@ -1,5 +1,10 @@
 * {
-  margin: 0;
+  body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  font-family: sans-serif;
 }
 
 header {
@@ -14,14 +19,23 @@ header {
 #overview {
   padding: 10px;
   margin: 10px;
-  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  height: 100vh;
+  .nameTitle {
+    margin-bottom: 1%;
+    h1 {
+      text-align: left;
+    }
+  }
 }
 
-#overview.nameTitle {
-  h1 {
-    text-align: center;
+#experience {
+  height: 100vh;
+  button {
+    width: 33.1%;
+    height: 5em;
+    font-size: large;
   }
 }

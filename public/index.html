@@ -9,8 +9,8 @@
   <body>
     <header>
       <a class="headerLink" href="#">Overview</a>
-      <a class="headerLink" href="#">Experience</a>
-      <a class="headerLink" href="#">Projects</a>
+      <a class="headerLink" href="#Experience">Experience</a>
+      <a class="headerLink" href="#Project">Projects</a>
       <a class="headerLink" href="#">MyCV</a>
     </header>
     <div id="overview">
@@ -24,14 +24,15 @@
         Industrial Engineering and Management.
       </p>
     </div>
-    <div id="experience">
+    <div id="Experience">
+      <h1>My Experience</h1>
       <div class="buttonList">
         <button id="schoolButton">School</button>
         <button id="workButton">Work</button>
         <button id="toolButton">Tools</button>
       </div>
 
-      <div id="school">
+      <div id="school" class="show">
         <h2>School's Experience</h2>
         <div id="schoolExp0">
           <h3>Industrial Engineering and Management</h3>
@@ -47,7 +48,7 @@
           <p></p>
         </div>
       </div>
-      <div id="work">
+      <div id="work" class="noshow">
         <h2>Work's Experience</h2>
         <div id="workExp0">
           <h3>Engineer Intern</h3>
@@ -66,11 +67,11 @@
           </ul>
         </div>
       </div>
-      <div>
+      <div id="tool" class="noshow">
         <h2>Tools</h2>
       </div>
     </div>
-    <div id="projects"></div>
+    <div id="Projects"></div>
     <footer></footer>
     <script src="../app.js"></script>
   </body>
